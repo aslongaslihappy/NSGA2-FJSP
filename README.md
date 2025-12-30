@@ -29,6 +29,11 @@ python main.py
 - 控制台输出最终 Pareto 前沿与最优编码
 - 在 `results/` 下保存甘特图（`gantt_chart.png` / `gantt_chart.pdf`）
 
+## 结果示例（甘特图）
+> 提示：请先运行 `python main.py` 生成 `results/gantt_chart.png`。
+
+![Gantt Chart](results/gantt_chart.png)
+
 ## 批量实验（可选）
 ```bash
 python "src/utils/performance _test.py"
