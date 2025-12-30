@@ -34,6 +34,11 @@ python main.py
 
 ![Gantt Chart](results/gantt_chart.png)
 
+## 结果示例（Pareto 前沿）
+> 提示：请先运行 `python "src/utils/performance _test.py"` 生成 `results/Brandimarte_Data/Mk01/pareto_fronts.png`。
+
+![Pareto Fronts](results/Brandimarte_Data/Mk01/pareto_fronts.png)
+
 ## 批量实验（可选）
 ```bash
 python "src/utils/performance _test.py"
