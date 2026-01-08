@@ -134,15 +134,7 @@ class ga:
         return unique_solutions, unique_indices
     
 
-    def environment_selection(
-        self,
-        population_job,
-        population_machine,
-        offspring_job,
-        offspring_machine,
-        objectives,
-        offspring_objectives,
-    ):
+    def environment_selection(self, population_job, population_machine, offspring_job, offspring_machine, objectives, offspring_objectives):
         combined_job = np.vstack((population_job, offspring_job))
         combined_machine = np.vstack((population_machine, offspring_machine))
         combined_objectives = objectives + offspring_objectives
